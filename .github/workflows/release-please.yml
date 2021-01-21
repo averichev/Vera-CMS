@@ -1,14 +1,13 @@
+name: Release Drafter
 on:
-   push:
-     branches:
-       - master
-name: release-please
+  push:
+    branches:
+      - master
 jobs:
-  release-please:
+  update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v2.4.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: node
-          package-name: nodeshift
+       - uses: actions/checkout@v2
+       - uses: release-drafter/release-drafter@v5
+         env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
