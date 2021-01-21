@@ -1,17 +1,14 @@
-name: release-please-action
 on:
-  push:
-    branches: [ master ]
+   push:
+     branches:
+       - master
+name: release-please
 jobs:
-  build:
+  release-please:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: google-github-actions/release-please-action@v2.15.0
+      - uses: GoogleCloudPlatform/release-please-action@v2.4.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: release-please-action
+          package-name: nodeshift
