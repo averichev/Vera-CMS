@@ -32,6 +32,7 @@ namespace Vera.CMS
                     .AllowAnyMethod()
                     .AllowAnyHeader();
             }));
+            services.AddDatabaseDeveloperPageExceptionFilter();
         }
 
         public static void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -40,6 +41,7 @@ namespace Vera.CMS
             
             if (env.IsDevelopment())
             {
+                app.UseDeveloperExceptionPage();
                 app.UseDeveloperExceptionPage();
             }
 
