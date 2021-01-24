@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Vera.CMS.Application.Services.Page;
 using Vera.CMS.Models.Repository;
@@ -15,6 +16,7 @@ namespace Vera.CMS.UI.API.Page
             _repository = repository;
         }
 
+        [Authorize]
         [Route("api/page/add")]
         [HttpPost]
         [Produces("application/json")]
