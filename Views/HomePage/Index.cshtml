@@ -4,12 +4,14 @@
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
+<h1 class="mt-5">Hello, world!</h1>
 <section class="mt-5">
     @{
         foreach (var pageItem in Model)
         {
+            var url = Url.Action("DetailPage", "Pages", new {pageId = pageItem.Id});
             <h2 class="mb-3">
-                <a href="#">@pageItem.Header</a>
+                <a href="@url">@pageItem.Header</a>
             </h2>
         }
     }
