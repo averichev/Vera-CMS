@@ -1,8 +1,16 @@
-@model dynamic
+@model IEnumerable<Vera.CMS.Models.Repository.Pages.PageItem>
 
 @{
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
-
-<h2>title</h2>
+<section class="mt-5">
+    @{
+        foreach (var pageItem in Model)
+        {
+            <h2 class="mb-3">
+                <a href="#">@pageItem.Header</a>
+            </h2>
+        }
+    }
+</section>
