@@ -1,0 +1,52 @@
+@model Vera.CMS.UI.Public.Models.PageView
+
+@{
+    ViewBag.Title = Model.Header;
+    Layout = "_Layout";
+}
+<article>
+    <div>
+        <div class="mt-5">
+            <h1>@Model.Header</h1>
+        </div>
+        <div class="mt-5">
+            @{
+                if (Model.Content != null)
+                {
+                    foreach (var block in Model.Content.Blocks)
+                    {
+                        switch (block.Type)
+                        {
+                            case "header":
+                                switch (block.Data.Level)
+                                {
+                                    case 2:
+                                        <h2>@block.Data.Text</h2>
+                                        break;
+                                    case 3:
+                                        <h3>@block.Data.Text</h3>
+                                        break;
+                                    case 4:
+                                        <h4>@block.Data.Text</h4>
+                                        break;
+                                }
+                                break;
+                            case "paragraph":
+                                <p>@block.Data.Text</p>
+                                break;
+                        }
+                    }
+                }
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Homepage</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</article>
