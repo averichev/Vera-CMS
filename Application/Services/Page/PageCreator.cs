@@ -2,20 +2,30 @@ namespace Vera.CMS.Application.Services.Page
 {
     public class PageCreator
     {
-        private readonly ICreatedPage _createdPage;
+        private readonly Infrastructure.Database.Entity.Page _page;
 
         public PageCreator(ICreatedPage createdPage)
         {
-            _createdPage = createdPage;
+            _page = new Infrastructure.Database.Entity.Page
+            {
+                Content = createdPage.Content,
+                Header = createdPage.Header
+            };
         }
         
-        public Infrastructure.Database.Entity.Page Create()
+        public PageCreator(IUpdatedPage updatedPage)
         {
-            return new()
+            _page = new Infrastructure.Database.Entity.Page
             {
-                Content = _createdPage.Content,
-                Header = _createdPage.Header
+                Content = updatedPage.Content,
+                Header = updatedPage.Header,
+                Id = updatedPage.Id
             };
+        }
+        
+        public Infrastructure.Database.Entity.Page Get()
+        {
+            return _page;
         }
     }
 }
