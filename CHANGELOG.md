@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/averichev/Vera-CMS/compare/v1.3.0...v1.4.0) (2021-01-26)
+
+### Features
+
+- Detail page #6 ([57a936d](https://github.com/averichev/Vera-CMS/commit/57a936dc60b6cdf287141de0fc8fd423abcd8b24)), closes [#6](https://github.com/averichev/Vera-CMS/issues/6)
+- Detail page #6 ([f09be3a](https://github.com/averichev/Vera-CMS/commit/f09be3aa8a9245201c0855fef19e98f2b59877dc)), closes [#6](https://github.com/averichev/Vera-CMS/issues/6)
+
 # [1.3.0](https://github.com/averichev/Vera-CMS/compare/v1.2.0...v1.3.0) (2021-01-26)
 
 ### Chores
