@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/averichev/Vera-CMS/compare/v1.2.0...v1.3.0) (2021-01-26)
+
+### Chores
+
+- **merge:** List of pages on homepage #5 ([a54fb5a](https://github.com/averichev/Vera-CMS/commit/a54fb5ae61151bf947b950bc8e23f906e31b2f3e)), closes [#5](https://github.com/averichev/Vera-CMS/issues/5)
+
+### Features
+
+- List of pages on homepage #5 ([4c3f22a](https://github.com/averichev/Vera-CMS/commit/4c3f22af2661b790503cabe450fc8ffbd3537525)), closes [#5](https://github.com/averichev/Vera-CMS/issues/5)
+
 # [1.2.0](https://github.com/averichev/Vera-CMS/compare/v1.1.0...v1.2.0) (2021-01-26)
 
 ### Chores
