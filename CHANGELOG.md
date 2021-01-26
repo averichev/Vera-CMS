@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/averichev/Vera-CMS/compare/v1.1.0...v1.2.0) (2021-01-26)
+
+### Chores
+
+- Deleted unused file ([6e1825b](https://github.com/averichev/Vera-CMS/commit/6e1825ba0f072dc6e73265923033e3cc537d84f5))
+- merge ([7158e53](https://github.com/averichev/Vera-CMS/commit/7158e535270078cc5bf081ebf2acb2016f779978))
+
+### Features
+
+- Pages CRUD ([0d3f116](https://github.com/averichev/Vera-CMS/commit/0d3f1162c21b0093d7c8c09f5cc8ca5c68c72a21))
+- Userinfo, authorization JWT ([6b5aa93](https://github.com/averichev/Vera-CMS/commit/6b5aa93c5faee3f35c330a8b9dae116cdeca80d6))
+
 # [1.1.0](https://github.com/averichev/Vera-CMS/compare/v1.0.0...v1.1.0) (2021-01-22)
 
 ### Chores
