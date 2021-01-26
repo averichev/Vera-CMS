@@ -7,24 +7,23 @@ using Vera.CMS.UI.API.Page.Models;
 
 namespace Vera.CMS.UI.API.Page
 {
-    public class AddPageController : Controller
+    public class UpdatePageController : Controller
     {
         private readonly IPageRepository _repository;
 
-        public AddPageController(IPageRepository repository)
+        public UpdatePageController(IPageRepository repository)
         {
             _repository = repository;
         }
 
         [Authorize]
-        [Route("api/page/add")]
+        [Route("api/page/update")]
         [HttpPost]
-        [Produces("application/json")]
-        public async Task<IActionResult> Add([FromBody]CreatedPage createdPage)
+        public async Task<IActionResult> UpdatePage([FromBody]UpdatedPage updated)
         {
-            var creator = new PageCreator(createdPage);
-            var id = await _repository.Add(creator.Get());
-            return new JsonResult(new NewPage(id));
+            var creator = new PageCreator(updated);
+            await _repository.Update(creator.Get());
+            return new JsonResult(true);
         }
     }
 }
