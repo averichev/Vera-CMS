@@ -1,3 +1,13 @@
+# [1.5.0](https://github.com/averichev/Vera-CMS/compare/v1.4.0...v1.5.0) (2021-01-28)
+
+### Chores
+
+- **Prepared for deploy:** Merge ([911a40a](https://github.com/averichev/Vera-CMS/commit/911a40a490942b533083f2470ff4481831380363))
+
+### Features
+
+- Prepared for deploy ([a4ef981](https://github.com/averichev/Vera-CMS/commit/a4ef981b855ae556cfcb3739a4586b167f238b4c))
+
 # [1.4.0](https://github.com/averichev/Vera-CMS/compare/v1.3.0...v1.4.0) (2021-01-26)
 
 ### Features
