@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/averichev/Vera-CMS/compare/v1.5.0...v1.6.0) (2021-02-01)
+
+### Chores
+
+- **Merge:** Title and raw html in templates #10 ([a2560f1](https://github.com/averichev/Vera-CMS/commit/a2560f1560cd9a5a93a3b19b920630f1d20f4260)), closes [#10](https://github.com/averichev/Vera-CMS/issues/10)
+
+### Features
+
+- Title and raw html in templates #10 ([c5668ea](https://github.com/averichev/Vera-CMS/commit/c5668eaf127712b3664c4db543dbf4ee302ca4c5)), closes [#10](https://github.com/averichev/Vera-CMS/issues/10)
+
 # [1.5.0](https://github.com/averichev/Vera-CMS/compare/v1.4.0...v1.5.0) (2021-01-28)
 
 ### Chores
