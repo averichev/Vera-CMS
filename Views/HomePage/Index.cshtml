@@ -1,18 +1,17 @@
 @model IEnumerable<Vera.CMS.Models.Repository.Pages.PageItem>
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Hello world!";
     Layout = "_Layout";
 }
-<h1 class="mt-5">Hello, world!</h1>
-<section class="mt-5">
-    @{
-        foreach (var pageItem in Model)
-        {
-            var url = Url.Action("DetailPage", "Pages", new {pageId = pageItem.Id});
-            <h2 class="mb-3">
+@{
+    foreach (var pageItem in Model)
+    {
+        var url = Url.Action("DetailPage", "Pages", new {pageId = pageItem.Id});
+        <div class="blog-post">
+            <h2 class="blog-post-title">
                 <a href="@url">@pageItem.Header</a>
             </h2>
-        }
+        </div>
     }
-</section>
+}
