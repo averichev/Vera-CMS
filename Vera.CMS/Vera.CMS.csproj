@@ -22,4 +22,10 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="src\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="src\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="src\obj\Vera.CMS.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
 </Project>
