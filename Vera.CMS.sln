@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vera.CMS", "Vera.CMS\Vera.CMS.csproj", "{F124D3E9-B34F-414C-9823-8429B8192D0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{C6A838E4-57C6-4E19-86D9-D8A8170D387A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,6 +13,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F124D3E9-B34F-414C-9823-8429B8192D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F124D3E9-B34F-414C-9823-8429B8192D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C6A838E4-57C6-4E19-86D9-D8A8170D387A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
