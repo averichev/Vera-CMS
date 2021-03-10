@@ -28,4 +28,10 @@
     <_ContentIncludedByDefault Remove="src\obj\Vera.CMS.csproj.nuget.dgspec.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Application\Services\File\FileRemover.cs" />
+    <Compile Remove="Application\Services\File\FileReader.cs" />
+    <Compile Remove="Application\Services\File\FileCreator.cs" />
+  </ItemGroup>
+
 </Project>

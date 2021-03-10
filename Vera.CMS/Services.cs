@@ -9,6 +9,7 @@ namespace Vera.CMS
         public static void ConfigureApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IPageRepository, PageRepository>();
+            services.AddScoped<ISiteRepository, SiteRepository>();
         }
     }
 }

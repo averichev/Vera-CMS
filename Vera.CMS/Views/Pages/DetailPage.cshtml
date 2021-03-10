@@ -34,6 +34,9 @@
                             case "paragraph":
                                 <p>@Html.Raw(block.Data.Text)</p>
                                 break;
+                            case "code":
+                                <pre><code>@Html.Raw(block.Data.Code)</code></pre>
+                                break;
                         }
                     }
                 }
