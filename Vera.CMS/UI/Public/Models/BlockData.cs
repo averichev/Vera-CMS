@@ -4,5 +4,7 @@ namespace Vera.CMS.UI.Public.Models
     {
         public string Text { get; set; }
         public int Level { get; set; }
+        
+        public string Code { get; set; }
     }
 }

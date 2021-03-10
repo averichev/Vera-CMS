@@ -14,6 +14,7 @@ namespace Vera.CMS.Infrastructure.Database
         {
         }
         
+        public DbSet<Site> Site { get; set; }
         public DbSet<Page> Page { get; set; }
     }
 }
