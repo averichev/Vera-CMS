@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/averichev/Vera-CMS/compare/v1.6.1...v1.7.0) (2021-03-10)
+
+### Chores
+
+- Removed test project ([85c7821](https://github.com/averichev/Vera-CMS/commit/85c78219fb6052209038ad379f9cf68aced4a2c9))
+
+### Features
+
+- Robots.txt #12 ([cffabd4](https://github.com/averichev/Vera-CMS/commit/cffabd47488f643c8e6c2fb151b1a39378924b49)), closes [#12](https://github.com/averichev/Vera-CMS/issues/12)
+
+### Other
+
+- Merge pull request #15 from averichev/dev-12-robots-txt ([c07ba71](https://github.com/averichev/Vera-CMS/commit/c07ba712af3d0d6115b036abd545d5a9bff44ae1)), closes [#15](https://github.com/averichev/Vera-CMS/issues/15)
+
 ## [1.6.1](https://github.com/averichev/Vera-CMS/compare/v1.6.0...v1.6.1) (2021-02-05)
 
 ### Chores
