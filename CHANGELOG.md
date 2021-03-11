@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/averichev/Vera-CMS/compare/v1.8.0...v1.9.0) (2021-03-11)
+
+### Features
+
+- Description meta-tag #18 ([d6c65e2](https://github.com/averichev/Vera-CMS/commit/d6c65e22104edd43ec0e936135ae64136dbe5f84)), closes [#18](https://github.com/averichev/Vera-CMS/issues/18)
+
+### Improvements
+
+- Favicon link ([35f95c5](https://github.com/averichev/Vera-CMS/commit/35f95c55a7824ec62d48aef8a2d14eab23ee2c32))
+
+### Other
+
+- Merge pull request #19 from averichev/dev-18-description-meta-tag ([367df3f](https://github.com/averichev/Vera-CMS/commit/367df3f63854c855d1d4df3cd6097dce9e77cbce)), closes [#19](https://github.com/averichev/Vera-CMS/issues/19)
+
 # [1.8.0](https://github.com/averichev/Vera-CMS/compare/v1.7.0...v1.8.0) (2021-03-11)
 
 ### Features
