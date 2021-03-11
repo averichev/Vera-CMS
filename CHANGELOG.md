@@ -1,3 +1,9 @@
+# [1.10.0](https://github.com/averichev/Vera-CMS/compare/v1.9.0...v1.10.0) (2021-03-11)
+
+### Features
+
+- Description meta-tag in template ([1e9301b](https://github.com/averichev/Vera-CMS/commit/1e9301bc98f12054167871e9c419d020a6431e05))
+
 # [1.9.0](https://github.com/averichev/Vera-CMS/compare/v1.8.0...v1.9.0) (2021-03-11)
 
 ### Features
