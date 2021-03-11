@@ -1,3 +1,13 @@
+# [1.8.0](https://github.com/averichev/Vera-CMS/compare/v1.7.0...v1.8.0) (2021-03-11)
+
+### Features
+
+- Code highlight #16 ([09fc91c](https://github.com/averichev/Vera-CMS/commit/09fc91c3cf79eab552116dabdb704cb9e1e6a4f1)), closes [#16](https://github.com/averichev/Vera-CMS/issues/16)
+
+### Other
+
+- Merge pull request #17 from averichev/dev-16-code-highlight ([6b17f8e](https://github.com/averichev/Vera-CMS/commit/6b17f8ea4353f90e9d0806782e2668c562ee7dfa)), closes [#17](https://github.com/averichev/Vera-CMS/issues/17) [#16](https://github.com/averichev/Vera-CMS/issues/16)
+
 # [1.7.0](https://github.com/averichev/Vera-CMS/compare/v1.6.1...v1.7.0) (2021-03-10)
 
 ### Chores
