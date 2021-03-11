@@ -19,8 +19,8 @@ namespace Vera.CMS.UI.Public
         public async Task<IActionResult> DetailPage(int pageId)
         {
             var page = await _repository.Page(pageId);
-
-            return View(new PageView (page)
+            ViewBag.MetaDescription = !string.IsNullOrEmpty(page.Description) ? page.Description : page.Header;
+            return View(new PageView(page)
             {
                 Header = page.Header
             });
