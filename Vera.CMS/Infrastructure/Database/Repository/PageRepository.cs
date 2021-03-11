@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Vera.CMS.Infrastructure.Database.Entity;
+using Vera.CMS.Models.Entity;
 using Vera.CMS.Models.Repository;
 using Vera.CMS.Models.Repository.Pages;
 
@@ -38,7 +39,7 @@ namespace Vera.CMS.Infrastructure.Database.Repository
                 .ToListAsync();
         }
 
-        public async Task<Page> Page(int id)
+        public async Task<IPage> Page(int id)
         {
             return await _set.FirstOrDefaultAsync(n => n.Id == id);
         }

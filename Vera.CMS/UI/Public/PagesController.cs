@@ -19,12 +19,9 @@ namespace Vera.CMS.UI.Public
         public async Task<IActionResult> DetailPage(int pageId)
         {
             var page = await _repository.Page(pageId);
-            var json = page.Content.ToString();
-            var content = JsonConvert.DeserializeObject<PageContent>(json);
-            
-            return View(new PageView
+
+            return View(new PageView (page)
             {
-                Content = content,
                 Header = page.Header
             });
         }
