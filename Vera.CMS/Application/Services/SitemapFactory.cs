@@ -32,6 +32,10 @@ namespace Vera.CMS.Application.Services
                     Loc = defaultSite.Protocol + "://" + defaultSite.Host + routeUrl
                 })
                 .ToList();
+            urlList.Add(new Url
+            {
+                Loc = defaultSite.Protocol + "://" + defaultSite.Host + "/"
+            });
 
             urlSet.Url = urlList;
 
