@@ -1,3 +1,5 @@
+using System.Xml.Serialization;
+
 namespace Vera.CMS.Models.Sitemap
 {
     public class Url
@@ -6,6 +8,7 @@ namespace Vera.CMS.Models.Sitemap
         {
         }
 
+        [XmlElement(ElementName = "loc")]
         public string Loc { get; set; }
     }
 }
