@@ -26,7 +26,8 @@ namespace Vera.CMS
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers()
+                .AddXmlSerializerFormatters();
             services.AddDbContext<DataBaseContext>(options =>
                 options.UseNpgsql(
                     _configuration.GetConnectionString("PGSQLConnectionString")

@@ -38,6 +38,13 @@ namespace Vera.CMS.Infrastructure.Database.Repository
                 .OrderByDescending(n => n.Id)
                 .ToListAsync();
         }
+        
+        public async Task<IEnumerable<IPage>> ListAsync()
+        {
+            return await _set
+                .OrderByDescending(n => n.Id)
+                .ToListAsync();
+        }
 
         public async Task<IPage> Page(int id)
         {
