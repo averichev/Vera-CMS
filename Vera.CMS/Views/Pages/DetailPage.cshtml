@@ -38,7 +38,7 @@
                                 <ul>
                                     @foreach (var item in block.Data.Items)
                                     {
-                                        <li>@item</li>
+                                        <li>@Html.Raw(item)</li>
                                     }
                                 </ul>
                                 break;
