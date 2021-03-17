@@ -34,6 +34,14 @@
                             case "paragraph":
                                 <p>@Html.Raw(block.Data.Text)</p>
                                 break;
+                            case "list":
+                                <ul>
+                                    @foreach (var item in block.Data.Items)
+                                    {
+                                        <li>@item</li>
+                                    }
+                                </ul>
+                                break;
                             case "codeBox":
                                 <pre><code class="@block.Data.Language">@Html.Raw(block.Data.Code)</code></pre>
                                 break;
