@@ -1,3 +1,13 @@
+## [1.10.1](https://github.com/averichev/Vera-CMS/compare/v1.10.0...v1.10.1) (2021-03-17)
+
+### Bug Fixes
+
+- Lists in content page ([fc22fd8](https://github.com/averichev/Vera-CMS/commit/fc22fd81a6005c4fa7f91c5a01738c2b72478b5f))
+
+### Other
+
+- Merge pull request #22 from averichev/fix-21-lists-in-content ([5c0d8e8](https://github.com/averichev/Vera-CMS/commit/5c0d8e801b738528692784fcdb9c9fb009362ef8)), closes [#22](https://github.com/averichev/Vera-CMS/issues/22) [#21](https://github.com/averichev/Vera-CMS/issues/21)
+
 # [1.10.0](https://github.com/averichev/Vera-CMS/compare/v1.9.0...v1.10.0) (2021-03-11)
 
 ### Features
