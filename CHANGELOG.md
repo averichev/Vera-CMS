@@ -1,3 +1,9 @@
+## [1.10.2](https://github.com/averichev/Vera-CMS/compare/v1.10.1...v1.10.2) (2021-03-17)
+
+### Bug Fixes
+
+- List in content page symbols ([5eef37e](https://github.com/averichev/Vera-CMS/commit/5eef37e36c5bff0361ecf2cef20a27a37c06d479))
+
 ## [1.10.1](https://github.com/averichev/Vera-CMS/compare/v1.10.0...v1.10.1) (2021-03-17)
 
 ### Bug Fixes
