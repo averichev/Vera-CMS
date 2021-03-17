@@ -1,3 +1,4 @@
+using System;
 using Vera.CMS.Application.Utils;
 
 namespace Vera.CMS.UI.Public.Models
@@ -6,6 +7,7 @@ namespace Vera.CMS.UI.Public.Models
     {
         public string Text { get; set; }
         public int Level { get; set; }
+        public string[] Items { get; set; }
         private string _code;
         public string Code
         {
