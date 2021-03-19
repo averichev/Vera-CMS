@@ -1,3 +1,18 @@
+# [1.11.0](https://github.com/averichev/Vera-CMS/compare/v1.10.2...v1.11.0) (2021-03-19)
+
+### Bug Fixes
+
+- Sitemap #20 - node names to lowercase ([fd46327](https://github.com/averichev/Vera-CMS/commit/fd46327309fa83b690e7d782335daed232f2a166)), closes [#20](https://github.com/averichev/Vera-CMS/issues/20)
+
+### Features
+
+- Sitemap #20 ([6d11620](https://github.com/averichev/Vera-CMS/commit/6d11620cc6c41fa06e708d74ef978ca6b4004dbe)), closes [#20](https://github.com/averichev/Vera-CMS/issues/20)
+- Sitemap #20 - main page added ([5e6fcc1](https://github.com/averichev/Vera-CMS/commit/5e6fcc11f139c6d3062fbb3375447cbcecda80b4)), closes [#20](https://github.com/averichev/Vera-CMS/issues/20)
+
+### Other
+
+- Merge pull request #23 from averichev/dev-20-sitemap ([546f45f](https://github.com/averichev/Vera-CMS/commit/546f45fb86fee1e4c828fc0478bbe77a77fb7a8f)), closes [#23](https://github.com/averichev/Vera-CMS/issues/23)
+
 ## [1.10.2](https://github.com/averichev/Vera-CMS/compare/v1.10.1...v1.10.2) (2021-03-17)
 
 ### Bug Fixes
