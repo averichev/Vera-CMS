@@ -10,6 +10,7 @@ namespace Vera.CMS.Models.Repository
     {
         Task<int> Add(Page page);
         Task<IEnumerable<PageItem>> List();
+        Task<IEnumerable<IPage>> ListAsync();
         Task<IPage> Page(int id);
         Task<int> Update(Page page);
     }

@@ -15,7 +15,7 @@ namespace Vera.CMS.UI.Public
             _repository = repository;
         }
 
-        [Route("/page-{pageId}/")]
+        [Route("/page-{pageId}/", Name = "DetailPage")]
         public async Task<IActionResult> DetailPage(int pageId)
         {
             var page = await _repository.Page(pageId);
