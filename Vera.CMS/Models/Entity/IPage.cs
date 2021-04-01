@@ -1,3 +1,4 @@
+using System;
 using System.Text.Json;
 
 namespace Vera.CMS.Models.Entity
@@ -8,5 +9,6 @@ namespace Vera.CMS.Models.Entity
         public string Header { get; set; }
         public string Description { get; set; }
         public JsonElement Content { get; set; }
+        public DateTime? LastUpdateTime { get; set; }
     }
 }

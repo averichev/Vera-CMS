@@ -24,12 +24,9 @@ namespace Vera.CMS.Application.Services
             var defaultSite = await _repository.GetDefaultSiteAsync();
             var urlSet = new UrlSet();
             var urlList = pages
-                .Select(page => _helper
-                    .RouteUrl("DetailPage", new {pageId = page.Id})
-                )
-                .Select(routeUrl => new Url
+                .Select(page => new Url(page.LastUpdateTime)
                 {
-                    Loc = defaultSite.Protocol + "://" + defaultSite.Host + routeUrl
+                    Loc = defaultSite.Protocol + "://" + defaultSite.Host + _helper.RouteUrl("DetailPage", new {pageId = page.Id}),
                 })
                 .ToList();
             urlList.Add(new Url

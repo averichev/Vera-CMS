@@ -50,6 +50,12 @@
                 }
             }
         </div>
+        @if (Model.HasLastUpdate)
+        {
+            <div class="">
+            @Model.LastUpdate
+            </div>
+        }
     </div>
     <div class="row">
         <div class="col-md-2">
