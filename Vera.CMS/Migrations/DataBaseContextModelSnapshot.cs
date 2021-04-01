@@ -267,6 +267,9 @@ namespace Vera.CMS.Migrations
                     b.Property<JsonElement>("Content")
                         .HasColumnType("jsonb");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
                     b.Property<string>("Header")
                         .HasColumnType("text");
 
