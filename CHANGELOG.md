@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/averichev/Vera-CMS/compare/v1.11.0...v1.12.0) (2021-04-01)
+
+### Improvements
+
+- Last update time of page in sitemap and on interface ([c4ecdb8](https://github.com/averichev/Vera-CMS/commit/c4ecdb8ddc2a37d17152fb998a4f49b26ce5182b))
+- Migration for field LastUpdateTime ([2493e1c](https://github.com/averichev/Vera-CMS/commit/2493e1cb99b4e32b52ff4e7d942925e2d562118d))
+- Migration for field LastUpdateTime (update snapshot) ([5cd7108](https://github.com/averichev/Vera-CMS/commit/5cd71086c8c56f97f7a94e60ef9667dc50e80c73))
+
+### Other
+
+- Merge pull request #25 from averichev/dev-24-last-page-update-time ([b535f41](https://github.com/averichev/Vera-CMS/commit/b535f41d996293fd7055dd9bbc4355318416a71c)), closes [#25](https://github.com/averichev/Vera-CMS/issues/25)
+
 # [1.11.0](https://github.com/averichev/Vera-CMS/compare/v1.10.2...v1.11.0) (2021-03-19)
 
 ### Bug Fixes
