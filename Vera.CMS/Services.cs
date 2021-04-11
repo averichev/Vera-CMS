@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Vera.CMS.Application.Services;
 using Vera.CMS.Infrastructure.Database.Repository;
 using Vera.CMS.Models.Repository;
 
@@ -10,6 +11,7 @@ namespace Vera.CMS
         {
             services.AddScoped<IPageRepository, PageRepository>();
             services.AddScoped<ISiteRepository, SiteRepository>();
+            services.AddScoped<ITemplateRenderer, StubbleTemplateRenderer>();
         }
     }
 }

@@ -1,4 +1,3 @@
-using System;
 using System.Text;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -10,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Vera.CMS.Application.Services;
 using Vera.CMS.Infrastructure.Database;
 using Vera.CMS.Infrastructure.Database.Entity;
 
@@ -26,6 +26,7 @@ namespace Vera.CMS
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc(options => options.OutputFormatters.Add(new HtmlOutputFormatter()));
             services.AddControllers()
                 .AddXmlSerializerFormatters();
             services.AddDbContext<DataBaseContext>(options =>
