@@ -45,6 +45,9 @@
                             case "codeBox":
                                 <pre><code class="@block.Data.Language">@Html.Raw(block.Data.Code)</code></pre>
                                 break;
+                            case "raw":
+                                <div class="mb-3">@Html.Raw(block.Data.Html)</div>
+                                break;
                         }
                     }
                 }
